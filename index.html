@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="mobile-web-app-capable" content="yes">
+     <link rel="icon" sizes="192x192" href="https://ontopup.com/img/icon.png">
+     <link rel="apple-touch-icon" href="https://ontopup.com/img/icon.png" />
+     <meta name="theme-color" content="#d7b7ff">
+     <title>Front End Developer Assignment</title>
+     <!-- bootstrap icon -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+     <!-- bootstrap css -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+     <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+     <nav class="navbar navbar-expand-lg nav-bg-custom navbar-dark">
+          <div class="container">
+               <a class="navbar-brand" href="#">
+                    <img src="/assets/images/brand/logo.png" alt="Logo" width="30" height="24"
+                         class="d-inline-block align-text-top d-lg-none">
+                    <span class="mb-0 h3 text-white customLogoStyle">Money Saving Tips</span>
+               </a>
+               <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav text-center ml-auto mb-2 mb-lg-0">
+                         <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">Home</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="#">About</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="#">Portfolio</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="#">Blog</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="#">Contact</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="#">FAQ</a>
+                         </li>
+               </div>
+          </div>
+     </nav>
+     <!-- end nav -->
+
+     <header>
+          <section class="countDown" id="countDown">
+               <div class="container">
+                    <p class="h3 text-center py-2 text-white mb-0">Expires in: 00:<span id="timer"></span></p>
+               </div>
+          </section> <!-- end countDown -->
+
+          <section class="jumbotron" id="jumbotron">
+               <div class="container text-center py-5">
+                    <h1 class="h1 text-white py-2 mb-0 my-2 bg-black p-2 text-dark bg-opacity-25">Save Money to
+                         Make
+                         Money</h1>
+                    <h1 class="h3 text-white py-2 mb-0 my-2 bg-black p-2 text-dark bg-opacity-25">Tips & Advice
+                         to Save
+                         You More</h1>
+               </div>
+          </section> <!-- end jumbotron -->
+     </header>
+     <!-- end header -->
+
+     <main>
+          <section class="subscription" id="subscription">
+               <div class="container">
+                    <div class="col-md-12">
+                         <h1 class="h1 text-uppercase py-5">Join the club to start saving money</h1>
+                         <div class="mailSection">
+                              <form>
+                                   <div class="mb-3">
+                                        <label for="exampleInputEmail1"
+                                             class="form-label h4 text text-uppercase"><strong>Enter Your Email
+                                                  Address</strong></label>
+                                        <input type="email" class="form-control emailInputStyle" id="exampleInputEmail1"
+                                             aria-describedby="emailHelp" placeholder="E.G. JaneSmith@gmail.com">
+                                        <div id="emailHelp" class="form-text pt-3">To Confirm the number is correct, we
+                                             will end you a free pin to your mobile phone via tex message. By pressing
+                                             enter you after to the price, terms below, and that the charges will be
+                                             added to your mobile phone bill..</div>
+                                   </div>
+                                   <div class="mb-3">
+                                        <label for="exampleInputPassword1"
+                                             class="form-label h4 text text-uppercase"><strong>Enter Your Mobile
+                                                  Number</strong></label>
+                                        <div class="input-group">
+                                             <input type="password" class="form-control col-sm-8 me-2 numberInputStyle"
+                                                  id="exampleInputPassword1" placeholder="E.G. 07812345901">
+                                             <button type="submit"
+                                                  class="btn btn-pink col-sm-4 rounded-0">Continue</button>
+                                        </div>
+                                        <div id="numberHelp" class="form-text pt-3">This text alert service is charged
+                                             at 25p per alert.</div>
+                                        <div id="numberHelp" class="form-text pt-4">You'll be given the option to choose
+                                             which types of money-saving alerts to receive, up to a maximum of 5 per
+                                             week. The charges for this alert service will be added to your mobile phone
+                                             bill. You can stop the text alerts at any time by texting the word 'stop'to
+                                             82222. If you would like any more information about the service, place
+                                             contact us on 0208 629 1663. Over 16s only.</div>
+
+                                   </div>
+                              </form>
+                         </div>
+                         <!-- end mail Section -->
+                    </div>
+               </div>
+          </section>
+          <!-- end subscription -->
+
+          <section class="booking" id="booking">
+               <div class="container">
+                    <div class="card mb-3">
+                         <div class="row g-0">
+                              <div class="col-md-4">
+                                   <img src="https://via.placeholder.com/460x200"
+                                        class="img-fluid rounded-0 customImageSize" alt="...">
+                              </div>
+                              <div class="col-md-6">
+                                   <div class="card-body">
+                                        <address><strong> Andrew Jones</strong>
+                                             <br>
+                                             Chiropractors, Physiotherapy<br>
+                                             123 London Road<br>
+                                             0207 123 1234
+                                        </address>
+                                   </div>
+                              </div>
+                              <div class="col-md-2">
+                                   <div class="card-footer btn-pink text-center b-0 rounded-0">Book Now</div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="card mb-3">
+                         <div class="row g-0">
+                              <div class="col-md-4">
+                                   <img src="https://via.placeholder.com/460x200"
+                                        class="img-fluid rounded-0 customImageSize" alt="...">
+                              </div>
+                              <div class="col-md-6">
+                                   <div class="card-body">
+                                        <address><strong> Guilford Chiro Centre</strong>
+                                             <br>
+                                             Chiropractors, Physiotherapy<br>
+                                             123 London Road<br>
+                                             0207 123 1234
+                                        </address>
+                                   </div>
+                              </div>
+                              <div class="col-md-2">
+                                   <div class="card-footer btn-pink text-center b-0 rounded-0">Book Now</div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="card mb-3">
+                         <div class="row d-flex align-items-center g-0">
+                              <div class="col-md-4">
+                                   <img src="https://via.placeholder.com/460x200"
+                                        class="img-fluid rounded-0 customImageSize" alt="...">
+                              </div>
+                              <div class="col-md-6">
+                                   <div class="card-body">
+                                        <address><strong>Andrew Jones</strong>
+                                             <br>
+                                             Chiropractors, Physiotherapy<br>
+                                             123 London Road<br>
+                                             0207 123 1234
+                                        </address>
+                                   </div>
+                              </div>
+                              <div class="col-md-2">
+                                   <div class="card-footer btn-pink text-center b-0 rounded-0">Book Now</div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+     </main>
+     <!-- end main -->
+
+     <footer>
+          <div class="container">
+               <div class="col-sm-12">
+                    <p class=" lead fs-6 text-center">Copyright &copy; 2022 <a href="https://www.facebook.com/yeahyeasarker/">Yeahyea Sarker</a>.</p>
+               </div>
+          </div>
+     </footer>
+     <!-- end footer -->
+
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+          crossorigin="anonymous"></script>
+     <script type="text/javascript" src="./assets/js/script.js"></script>
+</body>
+
+</html>
